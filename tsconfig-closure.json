@@ -1,0 +1,30 @@
+{
+    "angularCompilerOptions": {
+        "annotationsAs": "static fields",
+        "annotateForClosureCompiler": true
+    },
+    "compilerOptions": {
+        "module": "es2015",
+        "moduleResolution": "node",
+        "target": "es6",
+        "noImplicitAny": true,
+        "sourceMap": false,
+        "experimentalDecorators": true,
+        "outDir": "built-closure",
+        "declaration": true
+    },
+    "include": [
+        "src/app/app.module.ts",
+        "src/main-closure.ts"
+    ],
+    
+    "exclude": [
+        "vendor",
+        "e2e",
+        "node_modules",
+        "built",
+        "buildt-closure",
+        "dist",
+        "aot"
+    ]
+}

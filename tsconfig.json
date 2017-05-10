@@ -16,5 +16,9 @@
       "es2016",
       "dom"
     ]
-  }
+  },
+  "exclude": [
+    "main-aot.ts",
+    "main-closure.ts"
+  ]
 }

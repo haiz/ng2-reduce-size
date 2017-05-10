@@ -1,0 +1,13 @@
+{
+  "port": 8080,
+  "server": {
+    "baseDir": "test/src-closure",
+    "routes": {
+      "/dist": "dist-closure",
+      "/node_modules": "node_modules"
+    },
+    "middleware": {
+      "0": null
+    }
+  }
+}

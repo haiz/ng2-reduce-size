@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
-
+import { Component, Injectable } from '@angular/core';
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'my-app',
+  templateUrl: './app.component.html'
 })
+@Injectable()
 export class AppComponent {
-  title = 'app works!';
+  showHeading = true;
+  heroes = ['Magneta', 'Bombasto', 'Magma', 'Tornado'];
+  toggleHeading() {
+    this.showHeading = !this.showHeading;
+  }
 }
