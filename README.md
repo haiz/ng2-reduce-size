@@ -1,10 +1,10 @@
 # ng2-reduce-size
 
-Apply AOT, Google Closure Compiler for a basic Angular2 app
+Apply AOT, Google Closure Compiler for a basic Angular2 app.
 
 ## Install
 
-Run `npm install`
+Run `npm install` .
 
 ## Development server
 
@@ -18,4 +18,8 @@ Run `npm start:aot` to build the project by Angular AOT (follow the https://angu
 
 Run `npm start:closure` to build the project via Google Closure Compiler. Navigate to `http://localhost:8080/`.
 
-Notice: Open browser development tool to check the file size.
+Notice: Open browser development tool to check the resources' file size.
+
+## Clean
+
+Run `./clean.sh` to clean all built files.
